@@ -14,14 +14,14 @@
   3.3. 通过Model的findByIdAndUpdate()更新某个数据
   3.4. 通过Model的remove()删除匹配的数据
  */
-const md5 = require('blueimp-md5') ;
+// const md5 = require('blueimp-md5') ;
 
 /*
 * 1. 连接数据库
 *1.1. 引入mongoose
 * */
 // import mongoose from 'mongoose';
- const mongoose  = require('mongoose');
+//  const mongoose  = require('mongoose');
  // console.log(mongoose);
 //  1.2. 连接指定数据库(URL只有数据库是变化的)
 mongoose.connect('mongodb://localhost:27017/ggzhipin_jjsunyet_server');
